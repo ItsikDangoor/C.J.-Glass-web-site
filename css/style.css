@@ -1,0 +1,310 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	font-family:       sans-serif;
+  font-size:         16px;
+  background-attachment:  fixed; 
+  background-image:  radial-gradient(circle at bottom left, #87c3fd 0%, #2063c7 60%, #184a95 100%);
+}
+
+#page {
+  min-height:       fill-available;
+  max-width:        1700px;
+  margin:           0 auto;
+  position:         relative;
+  top:              2.500em; /**/
+}
+
+#copyright {
+  font-style:      italic;
+  color:           white;
+  font-size:       .9em; 
+  margin:          0 auto;
+}
+
+ .headlings {
+  color:         #fff;
+  text-align:    center;
+  margin:        0.625em 0.625em;/*10px 10px;*/
+  font-size:     2.5em;
+  font-weight:   800;
+  line-height:   0.5em;
+  font-family:  'Satisfy', cursive;
+}
+
+#navToolBar ul {
+	list-style:  none; 
+	margin:      0 auto;
+	padding:     0.438em 0 0 0;
+	display:     block;
+	max-width:   100%;
+	text-align:  center;
+}
+
+#navToolBar ul li {
+
+	padding:     0.313em; /*5px;*/
+	margin:      0.625em; /*10px;*/
+  text-align:  center;
+}
+
+#gallerySheet ul {
+  padding:     0;
+  text-align:  center;
+  margin:      0 10%;
+}
+
+#gallerySheet ul li {
+  display:     inline-block;
+  padding:     0.313em; /*5px;*/
+  margin:      0.625em; /*10px;*/
+  text-align:  center;
+  color:       #fff;
+}
+
+.bioQuotesText {
+  color:       #fff;
+  line-height: 1.5em;
+  list-style:  none; 
+  margin:      0 auto;
+  padding:     0;
+  max-width:   100%;
+  text-align:  center;
+  background-color:   #000; /*#00419E;*/ /*#0A6CCB;*/ /*#3A5FCD;*/
+  border-radius:      25px;
+}
+
+.bioQuotesText.bio {
+  margin:      auto;
+  padding:     2% 5%;
+  max-width:   100%;
+  text-align:  left;
+}
+
+.bioQuotesText li {
+  padding:           0.625em; /*5px;*/
+  padding-left:      5%;
+  padding-right:     5%;
+  text-align:       center;
+}
+
+.bioQuotesText p { 
+ margin:   0;
+}
+
+.bioQuotesText strong {
+   font-family:   cursive;
+   font-size:     18px;
+   color:         yellow;
+}
+
+a {
+  text-decoration:    none;
+  color:              azure;
+  font-weight:        700;
+  /*padding:            0.938em 0.625em;*/ /*15px 10px;*/
+}
+
+.bioQuotesText a {
+  text-decoration-line: underline;
+  /* text-decoration-style: solid; */
+  /* text-decoration-color: whitesmoke; */
+  text-decoration-thickness: 2px;
+}
+
+p.videos {
+  color: #fff;
+  text-align: center;
+}
+
+.videos a, .discoVideoGrapghyDetails a {
+  text-decoration: underline;
+}
+
+#navigation a.selected, a:hover{
+  color:   #E8A317;
+}
+
+#youtubeLogo {
+  margin: 5px;
+  width: 40px;
+}
+
+#logo h1{
+  /*color:         #fff;*/
+  text-align:    center;
+
+  /*font-family:  'Changa One', sans-serif;*/
+  margin:        0.313em auto;
+  
+  font-size:     3.5em;/* 0.75 larger relative to the default size*/
+  font-weight:   800;
+  /*line-height:   0.5em;*/
+
+  /*font-family:  'Pacifico', cursive;*/
+  font-family:  'Satisfy', cursive;
+  
+  /*background:  radial-gradient(circle at bottom left, #87c3fd 0%, #2063c7 60%, #184a95 100%);*/
+  /*background:               radial-gradient(circle at bottom left, #87c3fd 0%, #184a95 100%);*/
+  background:               radial-gradient(circle at bottom left, #fff 0%, #184a95 80%);
+  -webkit-background-clip:  text;
+  -webkit-text-fill-color:  transparent;
+  max-width:                100%;
+    /* 0.063em=1px
+       0.125em=2px
+       0.188em=3px
+       0.250em=4px
+       0.313em=5px
+       0.375em=6px
+       0.438em=7px
+       0.500em=8px
+       0.563em=9px
+       0.625em=10px
+       0.688em=11px
+       0.750em-12px
+       0.813em=13px
+       0.875em=14px
+       0.938em=15px
+       1.000em=16px
+    */
+}
+
+#navigation {
+    padding-top:      0.438em; /*10px;*/
+}
+
+#navToolBar {
+    float:            right;
+    width:            23%;
+
+    background:        #000;
+    /*background-image:     radial-gradient(circle at top right, #fff 0%, firebrick 20%, #ffa949 60%, #000 100%);*/
+    /*max-width:      80%;*/
+    
+    border:           0.125em solid #CDBE70; /*0.125em=2px*/
+    border-radius:    25px;
+    /*padding:          0.938em 0 0 0;*/ /*0.938em=15px*/
+    margin-top:       0;
+    text-align:       center;
+    color:            #000;
+    min-height:       850px;
+    
+}
+
+#navToolBar a:visted {
+    text-decoration:  none;   
+}
+
+
+
+#innerLeftContainer {
+  float:              left;
+  width:              75%; 
+  /*background-color:   #384047;*/
+  background-color:   #000;
+  border:             0.125em solid #CDBE70; /*0.125em=2px*/
+  border-radius:      25px;
+  margin:             auto;
+}
+
+.discoVideoGrapghyDetails {
+  list-style:  none; 
+  margin:      0 auto;
+  /*padding:     0.438em 0 0 0;*/
+  padding:     0.875em 0 0 0;
+  display:     block;
+  max-width:   100%;
+  text-align:  center;
+  color:       #fff;
+}
+
+.discoVideoGrapghyDetails li{
+  padding:     0.438em;
+}
+
+#containerPage:after {
+  clear: both;
+
+ /*one of the ways we can prevent an element from collapsing from floats is
+applying an overflow property and setting the value to hidden or auto.*/
+ /* overflow:   auto;*/
+  /*overflow: hidden;*/
+}
+
+#CJBeitHaamudim {
+  border-radius:      25px;
+}
+
+
+
+#cdbaby {
+  margin:   0 auto;  
+  width:    60%;
+}
+
+/* gallery light-box ---------*/
+#overlay {
+  background:   rgba(0,0,0,0.7);
+  width:        100%;
+  height:       100%;
+  position:     fixed;
+  top:          0;
+  left:         0;
+  display:      none;
+  text-align:   center;
+}
+
+#overlay img {
+    margin-top: 5%; 
+    max-height: 80%;
+    max-width:  80%;
+}
+
+#overlay p {
+ color:         white; 
+}
+
+#pressContent {
+  text-align:   center;
+  /*background-image:     radial-gradient(circle at top right, #fff 0%, firebrick 20%, #ffa949 60%, #000 100%);*/
+}
+
+#yediot {
+  margin:       0 auto;
+  max-width:    60%;
+}
+
+
+.hrStyle, hr {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double rgb(164, 168, 168);
+  color: rgb(230, 230, 236);
+  text-align: center;
+  width: 100px;
+}
+
+.hrStyle:after {
+  /* content: "♪";
+  content: "♫"; 
+  content: "🎸"; */
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+/*@media (min-width: 769px) {
+  #page {
+    width:    80%;
+  }  
+}*/
