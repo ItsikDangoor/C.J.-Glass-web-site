@@ -8,4 +8,4 @@ Developed in PHP, JS, JQuery, HTML5, CSS3.
 - External sites links
 - jQuery code under github hosting does not work.
   jQuery used for Lightbox Gallery page.
-https://itsikdangoor.github.io/C.J.-Glass-web-site/
+  https://itsikdangoor.github.io/C.J.-Glass-web-site/
